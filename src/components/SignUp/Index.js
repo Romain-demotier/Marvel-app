@@ -3,7 +3,7 @@ import {firebaseContexte} from "../FireBase"
 import {Link} from "react-router-dom"
 
 function SignUp(props) {
-console.log(props)
+
 const firebase = useContext(firebaseContexte)
 
     const data = {
@@ -50,7 +50,7 @@ const firebase = useContext(firebaseContexte)
         <div className = "signUpLoginBox">
             <div className = "slContainer">
                 <div className ="formBoxLeftSignup">
-
+                    
                 </div>
                 <div className = "formBoxRight">
                     <div className = "formContent">
@@ -64,12 +64,12 @@ const firebase = useContext(firebaseContexte)
                             </div>
 
                             <div className = "inputBox">
-                                <input autoComplete="new-email" onChange={handleChange} value={email} required type="email" id = "email"></input>
+                                <input autoComplete="off" onChange={handleChange} value={email} required type="email" id = "email"></input>
                                 <label htmlFor="email">Email</label>
                             </div>
 
                             <div className = "inputBox">
-                                <input autoComplete="new-password" onChange={handleChange} value={password} required type="password" id = "password"></input>
+                                <input autoComplete="off" onChange={handleChange} value={password} required type="password" id = "password"></input>
                                 <label htmlFor="password">Mot de pass</label>
                             </div>
 

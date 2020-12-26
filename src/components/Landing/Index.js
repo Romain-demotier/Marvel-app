@@ -39,13 +39,13 @@ const Landing = () => {
 
     <Fragment>
         <div className ="leftBox">
-            <Link to="/welcome" onMouseOver={handleLeftImg} onMouseOut={clearImg} className = "btn-welcome">
+            <Link to="/login" onMouseOver={handleLeftImg} onMouseOut={clearImg} className = "btn-welcome">
              Connexion
             </Link>
         </div>
 
         <div className ="rightBox">
-            <Link to="/login" onMouseOver={handleRightImg} onMouseOut={clearImg} className = "btn-welcome">
+            <Link to="/signUp" onMouseOver={handleRightImg} onMouseOut={clearImg} className = "btn-welcome">
             Inscription
             </Link>
         </div>
