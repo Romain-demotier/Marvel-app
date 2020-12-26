@@ -1,12 +1,14 @@
 import React from 'react'
+import {Link} from "react-router-dom"
+
 
 function Login() {
     return (
         <div className="signUpLoginBox">
         
             <div className="slContainer">
-                Login
-            </div>
+            aa
+                   </div>
             
         </div>
     )
