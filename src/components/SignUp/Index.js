@@ -1,10 +1,10 @@
 import React ,{useState , useContext} from 'react'
-import {firebaseContexte} from "../FireBase"
+import {FirebaseContext} from "../FireBase"
 import {Link} from "react-router-dom"
 
 function SignUp(props) {
 
-const firebase = useContext(firebaseContexte)
+const firebase = useContext(FirebaseContext)
 
     const data = {
         pseudo: "",

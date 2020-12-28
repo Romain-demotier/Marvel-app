@@ -1,11 +1,11 @@
 import React , {useState , useEffect , useContext} from 'react'
 import {Link} from "react-router-dom"
-import {firebaseContexte} from "../FireBase"
+import {FirebaseContext} from "../FireBase"
 
 
 function Login(props) {
 
-    const firebase = useContext(firebaseContexte)
+    const firebase = useContext(FirebaseContext)
 
     const [email, setemail] = useState("");
     const [password, setpassword] = useState("");
